@@ -1,0 +1,89 @@
+html {
+  font-family: Arial,sans-serif;
+}
+
+main>ul li {display: block;
+background-color: gold;
+color: blue;}
+
+main ul {
+  padding-left: 0;
+}
+
+main div li {display:inline-block}
+
+header {
+  text-align: center;
+  font-weight: bold;
+
+}
+header h2 {
+  background-color: rgb(51,51,51);
+  color:white;
+  font-size: 1.6rem;
+  margin:1px 0;
+  padding: 0.8rem
+}
+
+nav li{
+  background-color: rgb(211,211,211);
+  font-size: 1.2rem;
+  margin:1px 0;
+  text-decoration: none;
+  padding:0.4rem 0;
+}
+
+nav a {color: white;
+  text-decoration: none;
+  padding:5px 0
+}
+
+nav ul {list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+main>h3 {
+  background-color: rgb(241,135, 116);
+  margin:1rem;
+  padding: 8px 10px;
+  font-weight: normal;
+}
+
+main div {
+  background-color: turquoise;
+  margin:.8rem 1rem;
+  padding: .5rem 1.5rem;
+  padding-bottom: 0;
+
+
+}
+div h2 {
+  margin:.8rem 0 .2rem 0;
+  font-size: 1rem
+}
+
+div ul {
+  padding-bottom: 1rem;
+  padding-left: 0;
+  margin:2px 0 15px 0;
+  font-size: .8rem
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding:10px;
+}
+
+footer h4 {
+  margin: 0;
+  font-size: .3rem
+}
+
+h3 span {
+  text-decoration: underline;
+  text-decoration-color: turquoise;
+  font-weight: bold;
+}

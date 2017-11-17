@@ -1,0 +1,13 @@
+<h3>There are <span><%=@contacts.count%></span> contacts</h3>
+
+
+<%@contacts.each do |contact| %>
+<div>
+<h2> <%=contact.full_name%> <span>(<%=contact.email%>)</span></h2>
+<ul>
+  <li><a href = "#">Edit</a></li>
+  |
+  <li><a href = "#">Delete</a></li>
+</ul>
+</div>
+  <%end%>
