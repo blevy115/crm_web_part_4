@@ -4,3 +4,10 @@
 <li>Email is <%=@contact.email%></li>
 <li>Notes are <%=@contact.note%></li>
 </ul>
+
+<form action='/contacts/<%= @contact.id %>' method='post'>
+  <input type='hidden' name='_method' value='delete'>
+  <input type='submit' value='Delete'>
+</form>
+
+<a href = '/contacts/<%=@contact.id%>/edit'>Edit</a>
