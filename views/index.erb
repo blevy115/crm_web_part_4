@@ -5,9 +5,9 @@
 <div>
 <h2> <%=contact.full_name%> <span>(<%=contact.email%>)</span></h2>
 <ul>
-  <li><a href = "/contacts/<%=contact.id - 1 %>">View Contact</a></li>
+  <li><a href = "/contacts/<%=contact.id%>">View Contact</a></li>
   |
-  <li><a href = "#">Edit</a></li>
+  <li><a href = "/contacts/<%=contact.id%>/edit">Edit</a></li>
   |
   <li><a href = "#">Delete</a></li>
 </ul>
