@@ -6,13 +6,14 @@ get '/' do
   erb :index
 end
 
-get '/add_contacts' do
-  @contacts = Contact.all
-  erb :add_contacts
-end
 
 get'/contacts' do
   redirect to ('/')
+end
+
+get '/contacts/new' do
+  @contacts = Contact.all
+  erb :new
 end
 
 get '/contacts/:id' do
